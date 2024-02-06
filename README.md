@@ -31,4 +31,4 @@ This watchface is primarily inspired by the UI and font designs of the fictional
 
 * [sun-angle-calculator](https://github.com/sandervanthul/sun-angle-calculator)
 
-  Utilized code from this repository to calculate solar azimut and eleuation angles
+  Utilized code from this repository to calculate solar azimut and elevation angles
