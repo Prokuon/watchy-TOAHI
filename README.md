@@ -19,6 +19,23 @@ This watchface is primarily inspired by the UI and font designs of the fictional
 * To calculate exact sunrise/sunset time and azimut/eleuation angle, change `#define Latit_SET 31.00 #define Longit_SET 121.00 #define TimeZone_SET 8` in `Watchy_7_SEG.cpp`, the three data represents latitude, longitude and timezone
 * To set the GMT offset for network timing, change `#define GMT_OFFSET_SEC 3600 * 8` in `settings.h`
 
+# Extra Details
+
+The watch face features a significant number of Japanese Kanji characters, which may make it difficult to understand
+
+* 零壱弐参肆伍陸漆捌玖 0123456789
+* 西暦年号 Year
+* つき Month
+* 日付 Day
+* 曜日 Week
+* 電池残量 Battery Level
+* 歩數統計 Step count
+* 藍牙 Bluetooth
+* 日出時刻 Sunrise time
+* 日没時刻 Sunset time
+* 方位角 Solar Azimut Angle
+* 高度角 Solar Eleuation Angle
+
 # Credits
 
 * [moonPhase-esp32](https://github.com/CelliesProjects/moonPhase-esp32) 
@@ -31,4 +48,4 @@ This watchface is primarily inspired by the UI and font designs of the fictional
 
 * [sun-angle-calculator](https://github.com/sandervanthul/sun-angle-calculator)
 
-  Utilized code from this repository to calculate solar azimut and elevation angles
+  Utilized code from this repository to calculate solar azimut and eleuation angles
