@@ -407,10 +407,32 @@ void Watchy7SEG::drawAngle()
         else if (theta > 326.25 && theta <= 348.75)
             display.fillRect(23, 135, 3, 4, DARKMODE ? GxEPD_WHITE : GxEPD_BLACK);
 
+        if (phi >= 0 && theta <= 180)
+            display.drawBitmap(69, 165, arr1, 7, 7, DARKMODE ? GxEPD_WHITE : GxEPD_BLACK);
+        else if (phi >= 0 && theta > 180)
+            display.drawBitmap(69, 165, arr2, 7, 7, DARKMODE ? GxEPD_WHITE : GxEPD_BLACK);
+        else if (phi < 0 && theta < 360)
+            display.drawBitmap(69, 165, arr3, 7, 7, DARKMODE ? GxEPD_WHITE : GxEPD_BLACK);
+        else if (phi < 0 && theta >= 0)
+            display.drawBitmap(69, 165, arr4, 7, 7, DARKMODE ? GxEPD_WHITE : GxEPD_BLACK);
 
 
         if (phi < 0)
             phi = -phi;
+
+        if (phi >= 0 && phi <= 11.25)
+            display.drawLine(69, 193, 71, 193, DARKMODE ? GxEPD_WHITE : GxEPD_BLACK);
+        else if (phi > 11.25 && phi <= 33.75)
+            display.drawLine(72, 183, 75, 184, DARKMODE ? GxEPD_WHITE : GxEPD_BLACK);
+        else if (phi > 33.75 && phi <= 56.25)
+            display.drawLine(78, 174, 80, 176, DARKMODE ? GxEPD_WHITE : GxEPD_BLACK);
+        else if (phi > 56.25 && phi <= 78.75)
+            display.drawLine(87, 168, 88, 171, DARKMODE ? GxEPD_WHITE : GxEPD_BLACK);
+        else if (phi > 78.75 && phi <= 90)
+            display.drawLine(97, 165, 97, 167, DARKMODE ? GxEPD_WHITE : GxEPD_BLACK);
+        
+
+
         int a = phi / 10;
         int b = phi % 10;
         int c = theta / 100;
