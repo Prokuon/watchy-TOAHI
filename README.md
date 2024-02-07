@@ -15,8 +15,8 @@ This watchface is primarily inspired by the UI and font designs of the fictional
 
 * To toggle between Dark Mode/Light Mode, push back button
 * To toggle to sunrise/sunset time, push down button
-* To toggle to azimut/eleuation angle, push up button
-* To calculate exact sunrise/sunset time and azimut/eleuation angle, change `#define Latit_SET 31.00 #define Longit_SET 121.00 #define TimeZone_SET 8` in `Watchy_7_SEG.cpp`, the three data represents latitude, longitude and timezone
+* To toggle to azimut/elevation angle, push up button
+* To calculate exact sunrise/sunset time and azimut/elevation angle, change `#define Latit_SET 31.00 #define Longit_SET 121.00 #define TimeZone_SET 8` in `Watchy_7_SEG.cpp`, the three data represents latitude, longitude and timezone
 * To set the GMT offset for network timing, change `#define GMT_OFFSET_SEC 3600 * 8` in `settings.h`
 
 # Extra Details
@@ -34,7 +34,7 @@ The watch face features a significant number of Japanese Kanji characters, which
 * 日出時刻 Sunrise time
 * 日没時刻 Sunset time
 * 方位角 Solar Azimut Angle
-* 高度角 Solar Eleuation Angle
+* 高度角 Solar Elevation Angle
 
 # Credits
 
@@ -48,4 +48,4 @@ The watch face features a significant number of Japanese Kanji characters, which
 
 * [sun-angle-calculator](https://github.com/sandervanthul/sun-angle-calculator)
 
-  Utilized code from this repository to calculate solar azimut and eleuation angles
+  Utilized code from this repository to calculate solar azimut and elevation angles
