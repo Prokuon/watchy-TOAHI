@@ -23,18 +23,19 @@ This watchface is primarily inspired by the UI and font designs of the fictional
 
 The watch face features a significant number of Japanese Kanji characters, which may make it difficult to understand
 
-* 零壱弐参肆伍陸漆捌玖 0123456789
+* 零 0 壱 1 弐 2 参 3 肆 4 伍 5 陸 6 漆 7 捌 8 玖 9
 * 西暦年号 Year
 * つき Month
 * 日付 Day
 * 曜日 Week
+* 日曜日 Sunday 月曜日 Monday 火曜日 Tuesday 水曜日 Wednesday 木曜日 Thursday 金曜日 Friday 土曜日 Saturday
 * 電池残量 Battery Level
 * 歩數統計 Step count
 * 藍牙 Bluetooth
 * 日出時刻 Sunrise time
 * 日没時刻 Sunset time
 * 方位角 Solar Azimut Angle
-* 高度角 Solar Elevation Angle
+* 高度角 Solar elevation Angle
 
 # Credits
 
