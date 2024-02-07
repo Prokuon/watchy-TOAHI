@@ -421,15 +421,15 @@ void Watchy7SEG::drawAngle()
             phi = -phi;
 
         if (phi >= 0 && phi <= 11.25)
-            display.drawLine(69, 193, 71, 193, DARKMODE ? GxEPD_WHITE : GxEPD_BLACK);
+            display.drawLine(70, 193, 73, 193, DARKMODE ? GxEPD_WHITE : GxEPD_BLACK);
         else if (phi > 11.25 && phi <= 33.75)
-            display.drawLine(72, 183, 75, 184, DARKMODE ? GxEPD_WHITE : GxEPD_BLACK);
+            display.drawLine(73, 183, 76, 184, DARKMODE ? GxEPD_WHITE : GxEPD_BLACK);
         else if (phi > 33.75 && phi <= 56.25)
-            display.drawLine(78, 174, 80, 176, DARKMODE ? GxEPD_WHITE : GxEPD_BLACK);
+            display.drawLine(79, 175, 81, 177, DARKMODE ? GxEPD_WHITE : GxEPD_BLACK);
         else if (phi > 56.25 && phi <= 78.75)
-            display.drawLine(87, 168, 88, 171, DARKMODE ? GxEPD_WHITE : GxEPD_BLACK);
+            display.drawLine(87, 169, 88, 172, DARKMODE ? GxEPD_WHITE : GxEPD_BLACK);
         else if (phi > 78.75 && phi <= 90)
-            display.drawLine(97, 165, 97, 167, DARKMODE ? GxEPD_WHITE : GxEPD_BLACK);
+            display.drawLine(97, 166, 97, 169, DARKMODE ? GxEPD_WHITE : GxEPD_BLACK);
         
 
 
