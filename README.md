@@ -28,7 +28,7 @@ The watch face features a significant number of Japanese Kanji characters, which
 * つき Month
 * 日付 Day
 * 曜日 Week
-* 日曜日 Sunday 月曜日 Monday 火曜日 Tuesday 水曜日 Wednesday 木曜日 Thursday 金曜日 Friday 土曜日 Saturday
+* 日曜日 Sunday 月曜日 Monday 火曜日 Tuesday 水曜日 Wednesday 木曜日 Thursday 金曜日 Friday 土曜日 Saturday 
 * 電池残量 Battery Level
 * 歩數統計 Step count
 * 藍牙 Bluetooth
