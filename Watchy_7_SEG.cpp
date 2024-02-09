@@ -244,6 +244,14 @@ void Watchy7SEG::drawSun()
     int sr = location.sunrise(year, month, day, false);
     int ss = location.sunset(year, month, day, false);
 
+    int ct = currentTime.Hour * 60 + currentTime.Minute;
+
+    int lth = (ct - sr) * 57 / (ss - sr);
+    if (lth < 0)  lth = 0;
+    if (lth > 57) lth = 57;
+    if (showState == 1)
+        display.fillRect(39, 184, lth, 8, DARKMODE ? GxEPD_WHITE : GxEPD_BLACK);
+
     // int lft = 33 * sr / 24 / 60;
     // int rgt = 33 * ss / 24 / 60;
 
@@ -278,10 +286,10 @@ void Watchy7SEG::drawSun()
         drawNumc(101, 165, c);
         drawNumc(116, 165, d);
 
-        drawNumc(5, 180, e);
-        drawNumc(20, 180, f);
-        drawNumc(37, 180, g);
-        drawNumc(52, 180, h);
+        drawNumc(5, 165, e);
+        drawNumc(20, 165, f);
+        drawNumc(37, 165, g);
+        drawNumc(52, 165, h);
     }
 }
 
